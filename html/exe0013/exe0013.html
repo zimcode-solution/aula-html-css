@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isolando tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+        .nome{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>isolando coluna</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="grupo">
+            <col class="sexo">
+        </colgroup>
+        <tr>
+            <th>nome</th>
+            <th>grupo</th>
+            <th>sexo</th> 
+        </tr>
+        <tr>
+            <td>zairo</td>
+            <td>zimcode</td>
+            <td>masculo</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

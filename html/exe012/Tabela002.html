@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
        
         td,th{
@@ -24,13 +25,26 @@
         width: 300px;
         text-align: center;
        }
-        .num{
+       thead>tr>th{
+        position: sticky;
+        top: -1px;
+        background-color: black; ;
+       }
+       tbody>tr:nth-child(odd){
+        background-color: aquamarine;
+        font-weight: bold;
+       }
+       tbody>tr:nth-child(even){
+        background-color: rgb(36, 87, 133);/*colocar marcas*/
+       }
+             .num{
             text-align: right;
         }
         thead,tfoot{
             background-color: rgb(34, 8, 8);
             color: white;
         }
+       
     </style>
 
 </head>
@@ -66,7 +80,7 @@
                 <td>Zambia</td>
                 <td class="num">99999</td>
             </tr>
-
+            
         </tbody>
         <tfoot>
             <tr>
@@ -76,6 +90,51 @@
 
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit vitae et vero sapiente tenetur? Deleniti accusantium autem fugiat unde, labore a, neque odio repudiandae quae amet est, deserunt nemo nihil.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aspernatur, quae illo pariatur delectus provident sunt, amet libero nihil adipisci illum ab similique omnis? Porro aspernatur beatae voluptatibus iste!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam veniam debitis minima possimus consectetur quasi magnam quibusdam, beatae, impedit necessitatibus reprehenderit ipsum! Similique sapiente ab reprehenderit eos ratione quibusdam!
+    </p>
 
     
 </body>
