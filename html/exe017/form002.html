@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>estudos de formularios em HTML</h1>
+    <form action="cad.php" method="post" autocomplete="on">
+        <p><label for="isu">usuario:</label>
+            <input type="text" name="su" id="isu" required minlength="6" maxlength="15" size="15" placeholder="usuario" autocomplete="name">
+        </p>
+        <p>
+            <label for="ise">Senha:</label>
+            <input type="password" name="se" id="ise" required minlength="6" size="10" placeholder="Senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

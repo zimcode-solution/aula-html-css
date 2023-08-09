@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>inicializando estudos de dom</h1>
+    <form action="cad.php" method="get" autocomplete="on">
+        <p>
+            <label for="iname">Nome:</label>
+            <input type="text" name="nome" id="inome" minlength="4" maxlength="30" required placeholder="nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="inum">media:</label>
+            <input type="number" name="num" id="inum" minlength="0" maxlength="10" required placeholder="media" step="0.5">
+        </p>
+        <p>
+            <label for="imes">periodo:</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
